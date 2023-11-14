@@ -29,10 +29,10 @@ function Grades() {
             
             {Array.from({ length: divCount }, (_, index) => ( 
 
-                <div className=" m-4 h-3/4 w-3/4 bg-blue-200 flex flex-row items-center rounded-xl" >
+                <div className=" m-4 h-3/4 w-3/4 bg-blue-200 flex flex-row items-center rounded-xl" key={index} >
 
                     <div className='text-black m-8 text-2xl '>
-                      Subject 
+                      Subject {index+1}
                     </div>
 
                     <div>
